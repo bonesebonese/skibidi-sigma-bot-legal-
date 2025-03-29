@@ -1,5 +1,5 @@
 module.exports = {
-    footer: "Segunda Sombra ao seu Comando`",
+    footer: "Segunda Sombra ao seu Comando",
     ping: {
       description: "Verificar latência do bot",
       response: "Medindo latência...",
@@ -8,7 +8,7 @@ module.exports = {
         responseTime: "- Tempo de resposta do bot: **{latency}ms**",
         websocketPing: "- Ping do WebSocket: **{ping}ms**",
         uptime: "- Tempo online: **{uptime}**",
-        footer: "Segunda Sombra ao seu Comando`"
+        footer: "Segunda Sombra ao seu Comando"
       }
     },
     addsong: {
