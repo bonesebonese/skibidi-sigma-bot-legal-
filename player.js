@@ -102,9 +102,9 @@ function initializePlayer(client) {
                 iconURL: musicIcons.playerIcon,
                 url: config.SupportServer
             })
-            .setFooter({ text: `Segunda Sombra ao seu Comando, iconURL: musicIcons.playlistIcon })
+            .setFooter({ text: `Developed by SSRR | Prime Music v1.2`, iconURL: musicIcons.heartIcon })
             .setTimestamp()
- .setDescription(  
+            .setDescription(  
                 `- **Title:** [${track.info.title}](${track.info.uri})\n` +
                 `- **Author:** ${track.info.author || 'Unknown Artist'}\n` +
                 `- **Length:** ${formatDuration(track.info.length)}\n` +
@@ -334,7 +334,6 @@ function adjustVolume(player, channel, amount) {
     }
 }
 
-
 function toggleLoop(player, channel) {
     player.setLoop(player.loop === "track" ? "queue" : "track");
     sendEmbed(channel, player.loop === "track" ? "🔁 **Track loop is activated!**" : "🔁 **Queue loop is activated!**");
@@ -344,8 +343,6 @@ function disableLoop(player, channel) {
     player.setLoop("none");
     sendEmbed(channel, "❌ **Loop is disabled!**");
 }
-
-
 
 async function getLyrics(trackName, artistName, duration) {
     try {
@@ -387,8 +384,6 @@ async function getLyrics(trackName, artistName, duration) {
         return null;
     }
 }
-
-
 
 async function showLyrics(channel, player) {
     if (!player || !player.current || !player.current.info) {
@@ -486,8 +481,6 @@ async function showLyrics(channel, player) {
         message.delete().catch(() => {});
     });
 }
-
-
 
 function createActionRow1(disabled) {
     return new ActionRowBuilder()
