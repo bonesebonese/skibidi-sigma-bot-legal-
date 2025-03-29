@@ -103,7 +103,7 @@ module.exports = {
           author: "Ajuda",
           description: `
          
-          > Sua companheira musical preferida no Discord!.
+          > Sua companheira musical preferida no Discord!
           > Aqui estão as informações detalhadas sobre a __Beta__:
                   
           **📂 Comandos:** {totalCommands}
