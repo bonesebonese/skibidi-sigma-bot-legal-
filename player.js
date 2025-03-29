@@ -104,7 +104,7 @@ function initializePlayer(client) {
             })
             .setFooter({ text: `Segunda Sombra ao seu Comando, iconURL: musicIcons.playlistIcon })
             .setTimestamp()
-            .setDescription(  
+ .setDescription(  
                 `- **Title:** [${track.info.title}](${track.info.uri})\n` +
                 `- **Author:** ${track.info.author || 'Unknown Artist'}\n` +
                 `- **Length:** ${formatDuration(track.info.length)}\n` +
