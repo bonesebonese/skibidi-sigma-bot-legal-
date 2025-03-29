@@ -82,10 +82,10 @@ function initializePlayer(client) {
                 thumbnailImage: track.info.thumbnail || 'https://example.com/default_thumbnail.png',
                 backgroundColor: '#070707',
                 progress: 10,
-                progressColor: '#FF7A00',
-                progressBarColor: '#5F2D00',
+                progressColor: '#7F84A3',
+                progressBarColor: '#56537E',
                 name: track.info.title,
-                nameColor: '#FF7A00',
+                nameColor: '#7F84A3',
                 author: track.info.author || 'Unknown Artist',
                 authorColor: '#696969',
             });
