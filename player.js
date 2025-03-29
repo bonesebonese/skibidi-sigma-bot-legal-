@@ -102,7 +102,7 @@ function initializePlayer(client) {
                 iconURL: musicIcons.playerIcon,
                 url: config.SupportServer
             })
-            .setFooter({ text: `Segunda Sombra ao seu Comando`, iconURL: musicIcons.playlistIcon })
+            .setFooter({ text: `Segunda Sombra ao seu Comando, iconURL: musicIcons.playlistIcon })
             .setTimestamp()
             .setDescription(  
                 `- **Title:** [${track.info.title}](${track.info.uri})\n` +
