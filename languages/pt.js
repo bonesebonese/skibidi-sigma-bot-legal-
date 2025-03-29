@@ -99,13 +99,12 @@ module.exports = {
     },
     help: {
       embed: {
-          title: "📜 Menu de Ajuda do {botName}",
+          title: "📜 Menu de Ajuda da {botName}",
           author: "Ajuda",
           description: `
-          **Bem-vindo ao {botName}!**
-
-          > Seu companheiro musical definitivo no Discord.
-          > Aqui estão as informações detalhadas do bot:
+         
+          > Sua companheira musical preferida no Discord!.
+          > Aqui estão as informações detalhadas sobre a __Beta__:
                   
           **📂 Comandos:** {totalCommands}
           **🌐 Servidores:** {totalServers}
