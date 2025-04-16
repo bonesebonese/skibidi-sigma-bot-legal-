@@ -17,7 +17,7 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "bonese",
+      name: "glaceyt",
       password: "glayceyt",
       host: "astro.pylex.xyz",
       port:  11408,
