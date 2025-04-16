@@ -17,7 +17,7 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-name: "Avinan",
+      name: "Avinan",
       password: "avinan",
       host: "new-york-node-1.vortexcloud.xyz",
       port:  5008,
