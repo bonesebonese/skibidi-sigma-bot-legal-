@@ -18,10 +18,10 @@ module.exports = {
   nodes: [
      {
       name: "Amane",
-      password: "https://dsc.gg/ajidevserver",
-      host: "lava-all.ajieblogs.eu.org",
-      port:  443,
-      secure: true
+      password: "nextgencoderspvt",
+      host: "lavalink.nextgencoders.xyz",
+      port:  80,
+      secure: false
     }
   ]
 }
